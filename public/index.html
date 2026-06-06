@@ -1,13 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="script.js"></script>
+    <title>Mini Ecommerce</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <header class="header">
+        <h1>Mini Ecommerce</h1>
+        <p>Produtos de tecnologia, games e acessórios</p>
+        <a class="link-cadastro" href="cadastro_produto.html">Cadastrar produto</a>
+        <a class="link-cadastro" href="dashboard.html">Dashboard</a>
+    </header>
+
+    <main class="container">
+        <section class="filters">
+            <input type="text" id="search" placeholder="Buscar produto...">
+            <select id="category">
+                <option value="Todas">Todas</option>
+            </select>
+            <button id="btnRender">Renderizar todos</button>
+        </section>
+
+        <section id="product-list" class="product-list"></section>
+    </main>
+
+    <script src="script.js"></script>
 </body>
 </html>

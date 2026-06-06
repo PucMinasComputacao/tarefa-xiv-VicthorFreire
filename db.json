@@ -1,0 +1,136 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Notebook Dell Inspiron",
+      "descricaoCurta": "Notebook para estudos e trabalho.",
+      "descricaoCompleta": "Notebook Dell Inspiron com ótimo desempenho para tarefas do dia a dia, estudos, navegação, pacote Office e reuniões online.",
+      "imagem": "https://picsum.photos/400/250?random=1",
+      "categoria": "Notebooks",
+      "preco": 3500,
+      "tags": ["notebook", "trabalho", "estudos"],
+      "destaque": true,
+      "emEstoque": true
+    },
+    {
+      "id": 2,
+      "nome": "Notebook Acer Aspire",
+      "descricaoCurta": "Notebook custo-benefício.",
+      "descricaoCompleta": "Modelo indicado para quem busca bom desempenho com preço mais acessível, ideal para estudantes e uso doméstico.",
+      "imagem": "https://picsum.photos/400/250?random=2",
+      "categoria": "Notebooks",
+      "preco": 2800,
+      "tags": ["notebook", "custo-benefício", "estudo"],
+      "destaque": false,
+      "emEstoque": true
+    },
+    {
+      "id": 3,
+      "nome": "Mouse Gamer RGB",
+      "descricaoCurta": "Mouse gamer com iluminação RGB.",
+      "descricaoCompleta": "Mouse com boa pegada, sensor preciso e iluminação RGB, ideal para jogos competitivos e uso diário.",
+      "imagem": "https://picsum.photos/400/250?random=3",
+      "categoria": "Acessórios",
+      "preco": 150,
+      "tags": ["mouse", "gamer", "rgb"],
+      "destaque": true,
+      "emEstoque": true
+    },
+    {
+      "id": 4,
+      "nome": "Teclado Mecânico",
+      "descricaoCurta": "Teclado mecânico para jogos.",
+      "descricaoCompleta": "Teclado mecânico com boa resposta tátil, iluminação e construção resistente para jogos e digitação.",
+      "imagem": "https://picsum.photos/400/250?random=4",
+      "categoria": "Acessórios",
+      "preco": 300,
+      "tags": ["teclado", "mecânico", "gamer"],
+      "destaque": false,
+      "emEstoque": false
+    },
+    {
+      "id": 5,
+      "nome": "Headset Gamer",
+      "descricaoCurta": "Headset com microfone integrado.",
+      "descricaoCompleta": "Headset confortável com áudio imersivo e microfone para chamadas, aulas online e partidas multiplayer.",
+      "imagem": "https://picsum.photos/400/250?random=5",
+      "categoria": "Acessórios",
+      "preco": 220,
+      "tags": ["headset", "áudio", "gamer"],
+      "destaque": true,
+      "emEstoque": true
+    },
+    {
+      "id": 6,
+      "nome": "iPhone 14",
+      "descricaoCurta": "Smartphone Apple moderno.",
+      "descricaoCompleta": "Smartphone Apple com ótimo desempenho, boa câmera e sistema fluido para redes sociais, vídeos e produtividade.",
+      "imagem": "https://picsum.photos/400/250?random=6",
+      "categoria": "Celulares",
+      "preco": 5000,
+      "tags": ["iphone", "apple", "celular"],
+      "destaque": false,
+      "emEstoque": true
+    },
+    {
+      "id": 7,
+      "nome": "Galaxy S23",
+      "descricaoCurta": "Smartphone Samsung topo de linha.",
+      "descricaoCompleta": "Celular Samsung com tela de alta qualidade, bom conjunto de câmeras e excelente desempenho para apps e jogos.",
+      "imagem": "https://picsum.photos/400/250?random=7",
+      "categoria": "Celulares",
+      "preco": 4000,
+      "tags": ["samsung", "android", "celular"],
+      "destaque": true,
+      "emEstoque": true
+    },
+    {
+      "id": 8,
+      "nome": "PlayStation 5",
+      "descricaoCurta": "Console Sony de nova geração.",
+      "descricaoCompleta": "Console com jogos exclusivos, carregamento rápido e suporte a gráficos de alta qualidade.",
+      "imagem": "https://picsum.photos/400/250?random=8",
+      "categoria": "Games",
+      "preco": 4500,
+      "tags": ["playstation", "console", "games"],
+      "destaque": false,
+      "emEstoque": false
+    },
+    {
+      "id": 9,
+      "nome": "Xbox Series X",
+      "descricaoCurta": "Console Microsoft potente.",
+      "descricaoCompleta": "Console voltado para alto desempenho em jogos, com suporte a serviços online e biblioteca variada.",
+      "imagem": "https://picsum.photos/400/250?random=9",
+      "categoria": "Games",
+      "preco": 4200,
+      "tags": ["xbox", "console", "games"],
+      "destaque": true,
+      "emEstoque": true
+    },
+    {
+      "id": 10,
+      "nome": "Monitor Gamer 24 Polegadas",
+      "descricaoCurta": "Monitor para jogos e trabalho.",
+      "descricaoCompleta": "Monitor com boa taxa de atualização, ideal para jogar, estudar, programar e assistir conteúdos.",
+      "imagem": "https://picsum.photos/400/250?random=10",
+      "categoria": "Monitores",
+      "preco": 900,
+      "tags": ["monitor", "gamer", "setup"],
+      "destaque": false,
+      "emEstoque": true
+    }
+  ],
+  "categorias": [
+    { "id": 1, "nome": "Notebooks" },
+    { "id": 2, "nome": "Acessórios" },
+    { "id": 3, "nome": "Celulares" },
+    { "id": 4, "nome": "Games" },
+    { "id": 5, "nome": "Monitores" }
+  ],
+  "avaliacoes": [
+    { "id": 1, "produtoId": 1, "nota": 5, "comentario": "Produto muito bom." },
+    { "id": 2, "produtoId": 3, "nota": 4, "comentario": "Bom custo-benefício." },
+    { "id": 3, "produtoId": 7, "nota": 5, "comentario": "Excelente celular." }
+  ]
+}

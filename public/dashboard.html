@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <style>
+        body{
+            font-family: Arial;
+            padding: 30px;
+            text-align:center;
+        }
+
+        .grafico{
+            width:700px;
+            margin:auto;
+        }
+
+        a{
+            display:block;
+            margin-bottom:20px;
+        }
+    </style>
+</head>
+<body>
+
+    <a href="index.html">Voltar</a>
+
+    <h1>Produtos por Categoria</h1>
+
+    <div class="grafico">
+        <canvas id="graficoCategorias"></canvas>
+    </div>
+
+    <script src="dashboard.js"></script>
+
+</body>
+</html>
